@@ -8,15 +8,17 @@
   <p>4.Two way Binding</p>
 </li>
 <hr>
-app-databinding
 <!-- property binding done here
  
 -->
-<h1>
+<h1 class="text-center"> 
   Property Binding 
   <!-- Its an propetry  -->
 </h1>
-<div class="container" class="text-center">
+<div id="container" class="container" class="text-center">
   <p  [innerHTML]="str"></p>
-<img [src] = "imgpath" height="300px" width="300px">
+<img id="img" [src] = "imgpath" height="200px" width="150px">
+ <button id="Btn" class="btn btn-primary" (click)="fun()">know more 
+
+ </button>
 </div>

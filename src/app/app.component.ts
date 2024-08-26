@@ -7,6 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'DataBinding';
-  str = "Rupesh";
+  str = "Rupesh comes form ts file  and  below img link also";
   imgpath = "assets/rupesh.JPG"
+  fun()
+  {
+    console.log("data submitted sucessfully")
+  }
 }
