@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./data-binding-comp.component.css']
 })
 export class DataBindingCompComponent {
- 
+  data = "Welcome to Property binding"
 
 }
