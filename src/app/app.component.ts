@@ -11,6 +11,7 @@ export class AppComponent {
   imgpath = "assets/rupesh.JPG"
   fun()
   {
+    this.str = "thanks you we send  Rupesh related information";
     console.log("data submitted sucessfully")
   }
 }
