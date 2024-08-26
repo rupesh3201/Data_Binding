@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'DataBinding';
- 
+  str = "Rupesh";
+  imgpath = "assets/rupesh.JPG"
 }
