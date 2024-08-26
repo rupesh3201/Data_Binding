@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./data-binding-comp.component.css']
 })
 export class DataBindingCompComponent {
-  <input type="text" value="Hellow"> //type = property value //property
+ 
 
 }
