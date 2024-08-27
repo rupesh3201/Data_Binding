@@ -32,7 +32,7 @@ border-radius: 5px;
 }
 #Btn_res
 {
-    margin-left: 640px;
+    
     border: none;
     border-radius: 10px;
     color:black ;
@@ -41,5 +41,11 @@ border-radius: 5px;
  width: 200px;
  
  background-color: yellow;
+}
+.operation_con{
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+
 
 }
