@@ -26,7 +26,8 @@ export class AppComponent {
     this.res = parseInt(num1)+parseInt(num2);
     console.log(this.res);
   }
-  mul( num1:any, num2:any)
+// sub
+  sub( num1:any, num2:any)
   {
     
     
