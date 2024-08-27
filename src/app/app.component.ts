@@ -13,6 +13,7 @@ export class AppComponent {
   imgpath = "assets/rupesh.JPG"
    res:any 
   result: any 
+  sign:any
   fun()
   {
     this.str = "thanks you we send  Rupesh related information";
@@ -25,11 +26,12 @@ export class AppComponent {
     
     this.res = parseInt(num1)+parseInt(num2);
     console.log(this.res);
+    this.sign = "+"
   }
 // sub
   sub( num1:any, num2:any)
   {
-    
+    this.sign = "-"
     
     this.res = parseInt(num1)-parseInt(num2);
     console.log(this.res);
@@ -37,7 +39,7 @@ export class AppComponent {
 //mul
   mul( num1:any, num2:any)
   {
-    
+    this.sign = "*"
     
     this.res = parseInt(num1)*parseInt(num2);
     console.log(this.res);
@@ -45,7 +47,7 @@ export class AppComponent {
   //div
   div( num1:any, num2:any)
   {
-    
+    this.sign = "/"
     
     this.res = parseInt(num1)/parseInt(num2);
     console.log(this.res);

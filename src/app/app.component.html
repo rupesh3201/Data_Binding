@@ -28,16 +28,17 @@
 </div>
 <h1 class="text-center" [ngStyle]="{'color':'red' ,'font-size':'30px'}">Addition of Two numbers using event binding</h1>
 <div id="btn_container">
-  <input type="text" class="input" #n1>+
+  <input type="text" class="input" #n1>
+  <h1 #sign >+</h1>
   <input type="text"class="input"  #n2>
    
   <!-- mouser event -->
 
 </div>
 <div class="operation_con">
-<button id="Btn_res" (mouseout)="out()" (mouseover) ="add(n1.value , n2.value)"> Addition</button>
-<button id="Btn_res" (mouseout)="out()" (mouseover) ="sub(n1.value , n2.value)"> Substraction</button>
-<button id="Btn_res" (mouseout)="out()" (mouseover) ="mul(n1.value , n2.value)"> Multiplication</button>
+<button id="Btn_res" (mouseout)="out()" (mouseover) ="add(n1.value , n2.value  )"> Addition</button>
+<button id="Btn_res" (mouseout)="out()" (mouseover) ="sub(n1.value , n2.value  )"> Substraction</button>
+<button id="Btn_res" (mouseout)="out()" (mouseover) ="mul(n1.value , n2.value )"> Multiplication</button>
 <button id="Btn_res" (mouseout)="out()" (mouseover) ="div(n1.value , n2.value)"> Division</button>
 
 </div>
