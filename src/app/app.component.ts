@@ -34,6 +34,14 @@ export class AppComponent {
     this.res = parseInt(num1)-parseInt(num2);
     console.log(this.res);
   }
+//mul
+  mul( num1:any, num2:any)
+  {
+    
+    
+    this.res = parseInt(num1)*parseInt(num2);
+    console.log(this.res);
+  }
  
   out()
   {
