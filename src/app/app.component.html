@@ -16,17 +16,23 @@
   <!-- Its an propetry  -->
 </h1>
 <div id="container" class="container" class="text-center">
-  <p  [innerHTML]="str"></p>
+  
 <img id="img" [src] = "imgpath" height="200px" width="150px">
  <button id="Btn" class="btn btn-primary" (click)="fun()">know more 
   <!-- click event -->
 
  </button>
+ <br><p  [innerHTML]="str"></p>
+ <br>
+ 
 </div>
+<h1 class="text-center" [ngStyle]="{'color':'red' ,'font-size':'30px'}">Addition of Two numbers using event binding</h1>
 <div id="btn_container">
-  <input type="text" id="num1">
-  <input type="text"id="num2">
-  <button class="btn btn-warning" (mouseover)="add()"></button> 
+  <input type="text" class="input" #n1>+
+  <input type="text"class="input"  #n2>
+   
   <!-- mouser event -->
 
 </div>
+<button id="Btn_res" (mouseover) ="add(n1.value , n2.value)"> Addition</button>
+<h3  class="text-center" >Result: {{res}} <h3>
