@@ -20,3 +20,9 @@ border-radius: 5px;
     
 
 }
+#btn_container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
